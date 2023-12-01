@@ -1,0 +1,96 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.appWrapper {
+  width: 400px;
+  height: 80%;
+  padding: 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  border: 3px solid black;
+  border-radius: 10px;
+  gap: 2rem;
+}
+
+.appHeading {
+  display: flex;
+  align-self: center;
+  margin: 0;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+}
+
+.appInput {
+  padding: 0.5rem;
+  border-radius: 10px;
+  display: flex;
+  flex-grow: 1;
+}
+
+.appButton {
+  background-color: aquamarine;
+}
+
+.appList {
+  padding-left: 1rem;
+}
+
+.appListItem {
+  font-size: 20px;
+  margin-bottom: 5px; 
+}
+
+.saveButton {
+  background-color: gray;
+  font-size: 14px;
+  margin-left: 5px;
+  padding: 5px;
+
+  &:hover {
+    border-color: black;
+  }
+}
+
+.liButtonWrapper {
+  display: inline-block;
+}
+
+.liButtonWrapper button {
+  font-size: 14px;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.doneButton {
+  background-color: chartreuse;
+
+  &:hover {
+    border-color: green;
+  }
+}
+
+.markedAsDone {
+  text-decoration: line-through;
+}
+
+.editButton {
+  background-color: yellow;
+
+  &:hover {
+    border-color: orange;
+  }
+}
+
+.deleteButton {
+  background-color: red;
+
+  &:hover {
+    border-color: darkred;
+  }
+}
